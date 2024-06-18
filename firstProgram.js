@@ -1,4 +1,4 @@
-console.log("Farzeen")
+console.log("Farzeen");
 
 let a = 10;
 for(let i = 0; i < a; i++){
