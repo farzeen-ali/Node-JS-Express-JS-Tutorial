@@ -1,0 +1,26 @@
+{
+  "name": "node-js-tutorial",
+  "version": "1.0.0",
+  "description": "Node JS Tutorial 2024",
+  "main": "coreModules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farzeen-ali/Node-JS-Express-JS-Tutorial.git"
+  },
+  "keywords": [
+    "The",
+    "Techzeen"
+  ],
+  "author": "Farzeen Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farzeen-ali/Node-JS-Express-JS-Tutorial/issues"
+  },
+  "homepage": "https://github.com/farzeen-ali/Node-JS-Express-JS-Tutorial#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
