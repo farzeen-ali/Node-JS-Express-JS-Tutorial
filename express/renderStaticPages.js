@@ -7,6 +7,4 @@ const public = path.join(__dirname, 'public');
 console.log(public);
 
 app.use(express.static(public));
-
-
 app.listen(2000);
