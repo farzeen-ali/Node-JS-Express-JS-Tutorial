@@ -1,4 +1,4 @@
-const express = require('express');
+const express =  require('express');
 
 const app = express();
 
@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 
 app.get('/welcome', (req, res) => {
     const empInfo = {
-        name : 'Farzeen',
+        name : "Farzeen",
         id : '123'
     }
     res.render('Welcome', {empInfo})
