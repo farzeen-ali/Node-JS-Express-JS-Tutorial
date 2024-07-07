@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <%- include('common/Navbar') %>
+    <h2>About</h2>
+    <h3>Welcome <%= userInfo.name %> </h3>
+    <p>Your user id is: <%= userInfo.id %></p>
+    <ul>
+        <% userInfo.fav.forEach((item) => { %>
+            <li><%= item %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
