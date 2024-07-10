@@ -13,9 +13,11 @@ route.use(reqFilter);
 app.get('/', (req, res) => {
     res.send("This is our Home Page")
 })
+
 route.get('/about', (req, res) => {
     res.send("This is our About Page")
 })
+
 route.get('/contact', (req, res) => {
     res.send("This is our Contact Page")
 })
