@@ -12,7 +12,7 @@ app.post('/login', (req, res) => {
     const token = jwt.sign({ user }, secretKey, {expiresIn : '500s'});
     res.json({token})
 })
-
+ 
 const verifyToken = (req, res, next) => {
     const bearerHeader = req.headers['authorization'];
     if(bearerHeader) {
