@@ -7,6 +7,7 @@ const setLastName = new Promise((resolve, reject) => {
         resolve("Ali");
     }, 2000)
 })
+
 // setLastName.then((data) => {
 //     lastName = data;
 //     console.log(firstName + " " + lastName);
